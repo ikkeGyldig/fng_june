@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"MeSsAge": "Nothing's working - mark test commit! => Another test commit"}
+    return {"I am": "Spiderman"}
