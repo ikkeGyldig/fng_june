@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"I am": "Spiderman"}
+    return {"I am": "learning"}
